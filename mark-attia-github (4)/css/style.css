@@ -1,0 +1,53 @@
+header {
+	background-color: #00ffff;
+	padding: 0em;
+	margin: -.5em;
+	position: relative;
+	top: -20px;
+}
+
+.navtitle {
+	float: left;
+	padding: 0.7em 0.5em;
+}
+
+.navigation {
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.navigation li a {
+	margin: 0em 0em;
+	color: #ff0000;
+	display: block;
+	padding: 1.15em 0.5em;
+	font-weight: bold;
+	font-size: 1.15em;
+	text-decoration: none;
+}
+
+body {
+	background-image: url("https://media.playstation.com/is/image/SCEA/smite-screenshot-11-ps4-us-19feb16?$MediaCarousel_Original$");
+	background-size:cover;
+	background-attachment: fixed;	
+	background-repeat:no-repeat;
+}
+.smite {
+	font-size: 1.5em;
+	color: #ffffff;
+	position: relative;
+	text-align:center;
+	top: 150px;
+	}
+.logo
+{
+	position: relative;
+	top: -110px;
+	left: 550px;
+}
